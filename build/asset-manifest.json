@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/harsha-mandloi/static/css/main.ec0098bd.css",
+    "main.js": "/harsha-mandloi/static/js/main.0ecf0248.js",
+    "static/js/453.b88efcb5.chunk.js": "/harsha-mandloi/static/js/453.b88efcb5.chunk.js",
+    "index.html": "/harsha-mandloi/index.html",
+    "main.ec0098bd.css.map": "/harsha-mandloi/static/css/main.ec0098bd.css.map",
+    "main.0ecf0248.js.map": "/harsha-mandloi/static/js/main.0ecf0248.js.map",
+    "453.b88efcb5.chunk.js.map": "/harsha-mandloi/static/js/453.b88efcb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0098bd.css",
+    "static/js/main.0ecf0248.js"
+  ]
+}
