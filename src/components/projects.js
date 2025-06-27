@@ -66,7 +66,7 @@ const projectsData = [
   },
   {
     title: "Westcott Brand",
-    tech: "Photoshop | HTML | CSS | JS",
+    tech: "Photoshop | HTML | CSS | JS | eCommerce | SEO",
     description: "Implementation using HTML and css. Maintained and updated the website, ensuring it remained responsive and user-friendly.",
     link: "http://www.reviewcaddy.com/ ",
     image:"/assets/images/westcott.jpg"
