@@ -131,7 +131,7 @@ const Projects = () => {
     <section id="projects" className="py-10 sm:max-w-5xl xs:max-w-2xl mx-auto position-relative">
       <h3 className="text-4xl mb-6 text-slate-900 font-normal text-left">Projects</h3>
       <div className="relative flex gap-6">
-        {visibleProjects.map((project, idx) => (
+        {visibleProjects.map((project, idx) => ( 
           <div
             key={project.title + idx}
             className="flex-1 p-6 rounded-md bg-slate-100 border-orange-200 transition duration-500 hover:border-orange-400 animate-fadein shadow-md"
