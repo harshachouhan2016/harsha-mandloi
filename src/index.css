@@ -1,0 +1,120 @@
+@import-normalize; /* bring in normalize.css styles */ 
+@import "./tailwind.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.myImage{
+  background-image: url('./assets/images/harsha1.jpg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: 0px -50px;  
+  width: 175px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  border-radius: 70%;
+  margin: 0 auto;
+}
+.main-bg{
+  background-image: linear-gradient(to right, rgba(237, 221, 231, 1), rgba(237, 237, 237, 0.7)), url('./assets/images/harsha1.jpg');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: auto;
+}
+
+
+.nav-ul li ::after,
+.nav-ul li ::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ea580c, #313131);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.nav-ul li ::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.nav-ul li :hover::after,
+.nav-ul li :hover::before {
+  transform: scaleX(1);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .main-bg{
+    position: relative;
+    z-index: auto;
+    background-size: cover;
+  }
+
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add this CSS for a custom cursor effect */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 140, 0, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease, background 0.2s, box-shadow 0.3s;
+  box-shadow:
+    0 0 16px 8px rgba(255, 140, 0, 0.5),
+    0 0 32px 16px rgba(255, 140, 0, 0.2),
+    0 0 48px 32px rgba(255, 140, 0, 0.1);
+  animation: cursor-glow 1.2s infinite alternate;
+  border: 2px solid rgb(255, 179, 0);
+}
+
+@keyframes cursor-glow {
+  from {
+    box-shadow:
+      0 0 4px 8px rgba(255, 140, 0, 0.5),
+      0 0 16px 8px rgba(255, 140, 0, 0.2),
+      0 0 32px 16px rgba(255, 140, 0, 0.1);
+  }
+  to {
+    box-shadow:
+      0 0 8px 4px rgba(255, 140, 0, 0.8),
+      0 0 8px 16px rgba(255, 140, 0, 0.3),
+      0 0 16px 8px rgba(255, 140, 0, 0.15);
+  }
+}
+
+
