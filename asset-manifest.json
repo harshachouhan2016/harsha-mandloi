@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/harsha-mandloi/static/css/main.b5bd4a47.css",
-    "main.js": "/harsha-mandloi/static/js/main.d8eb3004.js",
+    "main.css": "/harsha-mandloi/static/css/main.3da0d232.css",
+    "main.js": "/harsha-mandloi/static/js/main.03f04cc5.js",
     "static/js/453.b88efcb5.chunk.js": "/harsha-mandloi/static/js/453.b88efcb5.chunk.js",
     "static/media/harsha1.jpg": "/harsha-mandloi/static/media/harsha1.f3af46d5d5e33fb0c78f.jpg",
     "static/media/Harsha-Mandloi.pdf": "/harsha-mandloi/static/media/Harsha-Mandloi.2c33556b2a7fc4080aa6.pdf",
     "index.html": "/harsha-mandloi/index.html",
-    "main.b5bd4a47.css.map": "/harsha-mandloi/static/css/main.b5bd4a47.css.map",
-    "main.d8eb3004.js.map": "/harsha-mandloi/static/js/main.d8eb3004.js.map",
+    "main.3da0d232.css.map": "/harsha-mandloi/static/css/main.3da0d232.css.map",
+    "main.03f04cc5.js.map": "/harsha-mandloi/static/js/main.03f04cc5.js.map",
     "453.b88efcb5.chunk.js.map": "/harsha-mandloi/static/js/453.b88efcb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5bd4a47.css",
-    "static/js/main.d8eb3004.js"
+    "static/css/main.3da0d232.css",
+    "static/js/main.03f04cc5.js"
   ]
 }
