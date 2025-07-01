@@ -4,9 +4,6 @@ import { motion } from "framer-motion";
 import Projects from "./components/projects"; 
 import resumePDF from "./assets/documents/Harsha-Mandloi.pdf";
 
-
-
-
 function AllData() {
 
   
