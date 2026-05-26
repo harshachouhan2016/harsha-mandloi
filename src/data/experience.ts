@@ -1,0 +1,114 @@
+export interface Chip {
+  label: string;
+  variant?: 'solid' | 'warm';
+}
+
+export interface Job {
+  range: string;
+  duration: string;
+  title: string;
+  company: string;
+  bullets: (string | { html: string })[];
+  link?: { label: string; href: string };
+  links?: { label: string; href: string }[];
+  stack: Chip[];
+}
+
+export const experience: Job[] = [
+  {
+    range: 'Jul 2023 — Present',
+    duration: '~3 yrs',
+    title: 'Career break · Skill development',
+    company: 'Edison, NJ — Family relocation',
+    bullets: [
+      'Planned career break following relocation from India to the US for family responsibilities and childcare.',
+      'Continued sharpening on React.js, accessibility, SEO, and modern e-commerce tooling.',
+      'Now actively seeking the next frontend role.',
+    ],
+    stack: [
+      { label: 'React' },
+      { label: 'Accessibility' },
+      { label: 'SEO' },
+    ],
+  },
+  {
+    range: 'Jun 2021 — Jun 2023',
+    duration: '2 yrs',
+    title: 'Frontend Developer',
+    company: 'LTIMindtree — Pune, Maharashtra',
+    bullets: [
+      "Owned frontend work on SK-II's global BigCommerce storefront — campaigns, coupons, inventory and content releases on a live e-commerce environment.",
+      { html: 'Led the rebuild from BigCommerce <strong>Blueprint → Stencil</strong> and integrated GraphQL-based services, improving maintainability and product-page responsiveness.' },
+      { html: 'Reduced page load by <strong>~20%</strong> via image optimization, asset cleanup and SCSS/JS refactoring on desktop and mobile.' },
+      'Improved SEO, accessibility and cross-browser compatibility through semantic HTML and WCAG/W3C-compliant patterns across Chrome, Safari, Firefox, Edge and mobile.',
+      'Resolved critical production defects and managed deployments, releases and inventory updates to minimize customer-facing disruptions.',
+    ],
+    link: { label: 'sk-ii.com', href: 'https://www.sk-ii.com/' },
+    stack: [
+      { label: 'BigCommerce Stencil', variant: 'warm' },
+      { label: 'React', variant: 'solid' },
+      { label: 'SCSS' },
+      { label: 'GraphQL' },
+      { label: 'Agile' },
+    ],
+  },
+  {
+    range: 'Jun 2017 — May 2021',
+    duration: '4 yrs',
+    title: 'Frontend Developer',
+    company: 'Bestway Tours and Safaris — Gurugram, Haryana',
+    bullets: [
+      'Designed responsive travel-booking interfaces, landing pages and banners in Photoshop / InDesign — improved engagement across desktop and mobile.',
+      'Built mobile-first layouts and reusable UI component libraries using Bootstrap and modern frontend frameworks.',
+      'Authored responsive HTML email templates for campaigns and newsletters with consistent rendering across Gmail, Outlook and major clients.',
+      'Hardened a11y and cross-browser behavior using semantic HTML, ARIA roles and WCAG testing across major browsers and devices.',
+      'Improved discoverability via SEO patterns — metadata, image compression and semantic page structure — informed by analytics.',
+    ],
+    links: [
+      { label: 'bestway.in', href: 'http://www.bestway.in' },
+      { label: 'bestway2india.com', href: 'http://bestway2india.com/' },
+    ],
+    stack: [
+      { label: 'Bootstrap', variant: 'solid' },
+      { label: 'HTML/CSS' },
+      { label: 'JS' },
+      { label: 'SEO' },
+      { label: 'Photoshop' },
+    ],
+  },
+  {
+    range: 'Aug 2012 — Oct 2016',
+    duration: '4 yrs',
+    title: 'UI Designer / Developer',
+    company: 'V Group INC. — Bhopal, M.P.',
+    bullets: [
+      'Developed and maintained multi-channel storefronts across Shopify, BigCommerce, Amazon Seller Central, Magento and eBay.',
+      'Built reusable responsive UI components that lifted frontend consistency and maintainability.',
+      'Created responsive HTML email templates for marketing and customer engagement.',
+      'Designed banners and branded UI elements to support visual identity and conversion.',
+      'Trained clients to manage their own content; communicated openly to align design with business goals.',
+    ],
+    stack: [
+      { label: 'Shopify' },
+      { label: 'Magento' },
+      { label: 'BigCommerce' },
+      { label: 'HTML Email' },
+    ],
+  },
+  {
+    range: 'Dec 2011 — Jun 2012',
+    duration: '7 mo',
+    title: 'Junior UI Designer / Developer',
+    company: 'Sakshi Tech Solutions — Bhopal, M.P.',
+    bullets: [
+      'Converted UI/UX wireframes into responsive, interactive web pages with HTML and CSS.',
+      'Collaborated with backend developers to wire UI to APIs and databases.',
+      'Fixed UI bugs, ensured cross-browser compatibility, and conducted basic usability/accessibility testing.',
+    ],
+    stack: [
+      { label: 'HTML' },
+      { label: 'CSS' },
+      { label: 'UI Testing' },
+    ],
+  },
+];
