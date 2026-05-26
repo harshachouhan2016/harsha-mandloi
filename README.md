@@ -7,7 +7,7 @@ Personal portfolio for Harsha Mandloi — Frontend Developer based in Edison, NJ
 ## Stack
 
 - **Vite** — dev server & bundler
-- **React 18** + **TypeScript** — UI
+- **React 18** — UI (plain JavaScript + JSX, no TypeScript)
 - **Tailwind CSS v4** (CSS-first config) — utility classes + design tokens
 - **Custom CSS** — typography, marquee animation, hero rise animation, complex layouts
 - **GitHub Actions** — automatic deploy to GitHub Pages on push to `main`
@@ -26,74 +26,22 @@ npm run build      # outputs to dist/
 npm run preview    # serve the built site locally
 ```
 
-## Project structure
-
-```
-├── public/
-│   ├── harsha-portrait.jpg
-│   └── Harsha-Mandloi-Resume.pdf
-├── src/
-│   ├── components/        # one file per section
-│   │   ├── Nav.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Marquee.tsx
-│   │   ├── SectionHead.tsx
-│   │   ├── About.tsx
-│   │   ├── Skills.tsx
-│   │   ├── Experience.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Education.tsx
-│   │   ├── Testimonials.tsx
-│   │   ├── Writing.tsx
-│   │   ├── Resume.tsx
-│   │   ├── Contact.tsx
-│   │   └── Reveal.tsx     # IntersectionObserver fade-up wrapper
-│   ├── data/              # content lives here — edit these to update the site
-│   │   ├── experience.ts
-│   │   ├── projects.ts
-│   │   ├── skills.ts
-│   │   ├── education.ts
-│   │   ├── testimonials.ts
-│   │   └── writing.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css          # Tailwind v4 @theme tokens + custom CSS
-├── index.html
-├── vite.config.ts
-├── tsconfig.json
-└── package.json
-```
-
 ## Editing content
 
 All copy lives in `src/data/`. Update those files and re-deploy — no component changes needed.
 
-## Deploy to GitHub Pages
+| File | What's in it |
+|---|---|
+| `src/data/experience.js` | Job entries, dates, bullets |
+| `src/data/projects.js` | Project cards |
+| `src/data/skills.js` | Skills lists |
+| `src/data/education.js` | Education entries |
+| `src/data/writing.js` | Blog/writing entries |
 
-The repo includes a workflow at `.github/workflows/deploy.yml`. On every push to `main`:
+For visual tweaks: `src/index.css` (theme tokens at the top in `@theme { ... }`).
 
-1. The workflow installs deps, runs `npm run build`, and uploads `dist/` as a Pages artifact.
-2. GitHub Pages serves it at `https://<user>.github.io/<repo>/`.
+## Deploy
 
-**One-time setup in the repo settings:**
+Workflow at `.github/workflows/deploy.yml` runs on every push to `main` and publishes to GitHub Pages automatically.
 
-- Go to **Settings → Pages**
-- Set **Source** to **GitHub Actions**
-- Push to `main` — the workflow runs automatically and publishes the site
-
-If you rename the repo, update the `base:` path in `vite.config.ts` to match the new name.
-
-## First-time push to GitHub
-
-From the project root:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit — portfolio v1"
-git branch -M main
-git remote add origin https://github.com/harshachouhan2016/harsha-mandloi.git
-git push -u origin main --force
-```
-
-The `--force` overwrites any existing content on `main`. Drop it if you want to preserve the current repo contents and merge instead.
+**One-time setup:** Repo Settings → Pages → Source = "GitHub Actions".
