@@ -17,7 +17,7 @@ const valueStyle: React.CSSProperties = {
 };
 
 export default function Resume() {
-  const resumeHref = `${import.meta.env.BASE_URL}Harsha-Mandloi-Resume.pdf`;
+  const resumeHref = `${import.meta.env.BASE_URL}CV-Harsha-Mandloi.pdf`;
 
   return (
     <section
@@ -62,8 +62,8 @@ export default function Resume() {
               contract — in the NJ / NY / remote market.
             </p>
             <div className="resume-cta">
-              <a className="btn" href={resumeHref} download="Harsha-Mandloi-Resume.pdf">
-                Download résumé (PDF) <span>↓</span>
+              <a className="btn" href={resumeHref} download="CV-Harsha-Mandloi.pdf">
+                Download resume (PDF) <span>↓</span>
               </a>
               <a className="btn ghost" href="mailto:harshachouhan2016@gmail.com">
                 Email me directly <span>→</span>

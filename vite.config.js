@@ -6,4 +6,8 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/harsha-mandloi/',
+  server: {
+    port: 3000,
+    open: true,    // auto-opens browser on start
+  },
 });

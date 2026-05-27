@@ -23,10 +23,7 @@ export default function About() {
               accessible, and aligned with the brand at every breakpoint.
             </p>
             <p className="body-prose">
-              My work centers on customer-facing storefronts at scale: SK-II, regional travel
-              brands, multi-channel sellers on Shopify and Magento. I move easily between Figma and
-              code, write SCSS that other engineers can actually read, and treat performance
-              budgets, semantic HTML, and WCAG compliance as table stakes.
+              Frontend Developer with 10+ years of experience building responsive, high-performing e-commerce  websites and customer-facing web applications. Expertise in React.js, JavaScript, HTML5, CSS3, SCSS, Shopify, BigCommerce, and Adobe Commerce (Magento) with strong focus on frontend performance optimization, responsive design, accessibility, SEO, and cross-browser compatibility. Experienced in developing scalable UI components, managing production releases, integrating GraphQL-based solutions, and delivering customer-focused web experiences in Agile environments.
             </p>
             <p className="body-prose">
               Since 2023 I&apos;ve been on a planned career break in the US for family — and using
@@ -44,7 +41,7 @@ export default function About() {
               </div>
               <div>
                 <dt>Focus</dt>
-                <dd>React, e-commerce, HTML, CSS, Javascript</dd>
+                <dd>E-Commerce, Accessibility, React, HTML, CSS, Javascript</dd>
               </div>
               <div>
                 <dt>Originally from</dt>

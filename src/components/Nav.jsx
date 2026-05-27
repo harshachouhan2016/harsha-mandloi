@@ -11,8 +11,7 @@ export default function Nav() {
           <a href="#skills">02 / Skills</a>
           <a href="#work">03 / Work</a>
           <a href="#projects">04 / Projects</a>
-          <a href="#writing">05 / Writing</a>
-          <a href="#contact">06 / Contact</a>
+          <a href="#contact">05 / Contact</a>
         </div>
         <a className="nav-cta" href="#contact">
           <span className="dot" />

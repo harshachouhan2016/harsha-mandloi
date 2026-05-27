@@ -39,7 +39,7 @@ export const experience: Job[] = [
     bullets: [
       "Owned frontend work on SK-II's global BigCommerce storefront — campaigns, coupons, inventory and content releases on a live e-commerce environment.",
       { html: 'Led the rebuild from BigCommerce <strong>Blueprint → Stencil</strong> and integrated GraphQL-based services, improving maintainability and product-page responsiveness.' },
-      { html: 'Reduced page load by <strong>~20%</strong> via image optimization, asset cleanup and SCSS/JS refactoring on desktop and mobile.' },
+      { html: 'Reduced page load via image optimization, asset cleanup and SCSS/JS refactoring on desktop and mobile.' },
       'Improved SEO, accessibility and cross-browser compatibility through semantic HTML and WCAG/W3C-compliant patterns across Chrome, Safari, Firefox, Edge and mobile.',
       'Resolved critical production defects and managed deployments, releases and inventory updates to minimize customer-facing disruptions.',
     ],

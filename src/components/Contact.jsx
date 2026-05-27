@@ -10,7 +10,7 @@ export default function Contact() {
         timeZone: 'America/New_York',
         hour: '2-digit',
         minute: '2-digit',
-        hour12: false,
+        hour12: true,
       });
       setNow(fmt.format(new Date()));
     };

@@ -36,7 +36,7 @@ export default function Hero() {
             >
               Most recently at LTIMindtree, where I led the BigCommerce Blueprint → Stencil rebuild
               for the global SK-II storefront. Specialized in performance, accessibility and
-              design-system work across Shopify, BigCommerce, Magento and WordPress.
+              design-system work across Shopify, BigCommerce, and Adobe Commerce (Magento).
             </p>
           </div>
         </div>
