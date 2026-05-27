@@ -29,8 +29,8 @@ export const experience = [
     ],
     link: { label: 'sk-ii.com', href: 'https://www.sk-ii.com/' },
     stack: [
-      { label: 'BigCommerce Stencil', variant: 'warm' },
-      { label: 'React', variant: 'solid' },
+      { label: 'BigCommerce Stencil'},
+      { label: 'React'},
       { label: 'SCSS' },
       { label: 'GraphQL' },
       { label: 'Agile' },
@@ -53,7 +53,7 @@ export const experience = [
       { label: 'bestway2india.com', href: 'http://bestway2india.com/' },
     ],
     stack: [
-      { label: 'Bootstrap', variant: 'solid' },
+      { label: 'Bootstrap' },
       { label: 'HTML/CSS' },
       { label: 'JS' },
       { label: 'SEO' },
