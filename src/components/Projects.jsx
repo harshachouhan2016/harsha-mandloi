@@ -46,7 +46,7 @@ export default function Projects() {
                 <h3>
                   {p.title} <span className="arrow">↗</span>
                 </h3>
-                <p>{p.description}</p>
+                {/* <p>{p.description}</p> */}
                 <div className="stack">
                   {p.stack.map((s) => (
                     <span key={s} className="chip">

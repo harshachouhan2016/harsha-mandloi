@@ -35,8 +35,8 @@ export const projects = [
     team: 'V Group INC.',
     title: 'Class 8 Truck Parts',
     description:
-      'Heavy-duty truck parts storefront on BigCommerce. Built the homepage clearance section, mega-menu by vehicle category, and a responsive cart flow tuned for desktop B2B buyers.',
-    stack: ['BigCommerce', 'HTML/CSS', 'jQuery', 'Responsive'],
+      'Heavy-duty truck parts storefront on BigCommerce. Built the homepage clearance section by vehicle category, and a responsive cart flow tuned for desktop B2B buyers.',
+    stack: ['HTML/CSS', 'jQuery', 'Responsive'],
     visit: 'class8truckparts.com',
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     team: 'V Group INC.',
     title: 'Huntley Equestrian',
     description:
-      'Shopify storefront for Huntley Equestrian & Grand Prix — full-bleed editorial homepage, dual-brand navigation, multi-currency and review widgets integrated cleanly into the theme.',
+      'Storefront for Huntley Equestrian & Grand Prix — full-bleed editorial homepage, dual-brand navigation, multi-currency and review widgets integrated cleanly into the theme.',
     stack: ['Shopify', 'Liquid', 'SCSS', 'HTML Email'],
     visit: 'huntleyequestrian.com',
   },
@@ -83,12 +83,12 @@ export const projects = [
     num: '07',
     image: 'projects/reviewcaddy.jpg',
     imageLabel: '[ reviewcaddy.com ]',
-    type: 'SaaS Marketing · WordPress',
+    type: 'SaaS Marketing ',
     team: 'V Group INC.',
     title: 'ReviewCaddy — SaaS site',
     description:
-      'Marketing site for a reviews-and-ratings SaaS. Pricing pages, integration docs and a multi-step sign-up flow. WordPress build with a custom theme and a reusable component library.',
-    stack: ['WordPress', 'PHP', 'jQuery', 'CSS3'],
+      'Marketing site for a reviews-and-ratings SaaS. Pricing pages, integration docs and a multi-step sign-up flow.',
+    stack: ['PHP', 'jQuery', 'CSS3'],
     visit: 'reviewcaddy.com',
   },
   {
