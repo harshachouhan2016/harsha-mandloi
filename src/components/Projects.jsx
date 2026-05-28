@@ -27,9 +27,16 @@ export default function Projects() {
               target={p.href.startsWith('http') ? '_blank' : undefined}
               rel={p.href.startsWith('http') ? 'noreferrer' : undefined}
             >
-              <div className="project-img">
+              <div className={`project-img${p.image ? ' has-image' : ''}`}>
+                {p.image && (
+                  <img
+                    src={`${import.meta.env.BASE_URL}${p.image}`}
+                    alt={`${p.title} — preview`}
+                    loading="lazy"
+                  />
+                )}
                 <div className="num-tag">{p.num}</div>
-                <div className="ph-label">{p.imageLabel}</div>
+                {!p.image && <div className="ph-label">{p.imageLabel}</div>}
               </div>
               <div className="project-body">
                 <div className="type">
