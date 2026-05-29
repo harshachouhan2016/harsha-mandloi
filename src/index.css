@@ -517,7 +517,7 @@ section { padding: 120px 0; }
 .chip.warm { background: var(--color-accent); color: var(--color-paper); border-color: var(--color-accent); }
 
 /* ---------- projects ---------- */
-.projects { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.projects { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
 @media (max-width: 880px) { .projects { grid-template-columns: 1fr; } }
 .project {
   background: var(--color-paper);
